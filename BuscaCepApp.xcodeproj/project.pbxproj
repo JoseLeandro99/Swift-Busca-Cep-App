@@ -9,13 +9,23 @@
 /* Begin PBXBuildFile section */
 		9CD5CEA12894C300008A4189 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD5CEA02894C300008A4189 /* AppDelegate.swift */; };
 		9CD5CEA32894C300008A4189 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD5CEA22894C300008A4189 /* SceneDelegate.swift */; };
-		9CD5CEA52894C300008A4189 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD5CEA42894C300008A4189 /* ViewController.swift */; };
-		9CD5CEA82894C300008A4189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD5CEA62894C300008A4189 /* Main.storyboard */; };
 		9CD5CEAA2894C301008A4189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CD5CEA92894C301008A4189 /* Assets.xcassets */; };
 		9CD5CEAD2894C301008A4189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD5CEAB2894C301008A4189 /* LaunchScreen.storyboard */; };
 		9CD5CEB82894C301008A4189 /* BuscaCepAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD5CEB72894C301008A4189 /* BuscaCepAppTests.swift */; };
 		9CD5CEC22894C301008A4189 /* BuscaCepAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD5CEC12894C301008A4189 /* BuscaCepAppUITests.swift */; };
 		9CD5CEC42894C301008A4189 /* BuscaCepAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD5CEC32894C301008A4189 /* BuscaCepAppUITestsLaunchTests.swift */; };
+		9CD5CED22894C42E008A4189 /* BuscaCepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD5CED12894C42E008A4189 /* BuscaCepViewController.swift */; };
+		9CD5CED42894C556008A4189 /* BuscaCepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD5CED32894C556008A4189 /* BuscaCepView.swift */; };
+		9CD5CED72894CCD3008A4189 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD5CED62894CCD3008A4189 /* UITextField+Extensions.swift */; };
+		9CD5CED92894D4D6008A4189 /* BuscaCepViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD5CED82894D4D6008A4189 /* BuscaCepViewController+Extensions.swift */; };
+		9CD5CEDC2894D4FA008A4189 /* AppLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD5CEDB2894D4FA008A4189 /* AppLabel.swift */; };
+		9CD5CEDE2894D76E008A4189 /* AppImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD5CEDD2894D76E008A4189 /* AppImage.swift */; };
+		9CD5CEE02894D8E9008A4189 /* AppTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD5CEDF2894D8E9008A4189 /* AppTextField.swift */; };
+		9CD5CEE22894DA3B008A4189 /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD5CEE12894DA3B008A4189 /* AppButton.swift */; };
+		9CD5CEE42894DBAF008A4189 /* BuscaCepView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD5CEE32894DBAF008A4189 /* BuscaCepView+Extensions.swift */; };
+		9CD5CEE72894DC5D008A4189 /* ApiServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD5CEE62894DC5D008A4189 /* ApiServiceProtocol.swift */; };
+		9CD5CEEA2894DD19008A4189 /* CepResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD5CEE92894DD19008A4189 /* CepResult.swift */; };
+		9CD5CEEC2894DFCB008A4189 /* ApiSerivce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD5CEEB2894DFCB008A4189 /* ApiSerivce.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +49,6 @@
 		9CD5CE9D2894C300008A4189 /* BuscaCepApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuscaCepApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CD5CEA02894C300008A4189 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CD5CEA22894C300008A4189 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9CD5CEA42894C300008A4189 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9CD5CEA72894C300008A4189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CD5CEA92894C301008A4189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CD5CEAC2894C301008A4189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CD5CEAE2894C301008A4189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +57,18 @@
 		9CD5CEBD2894C301008A4189 /* BuscaCepAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuscaCepAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CD5CEC12894C301008A4189 /* BuscaCepAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscaCepAppUITests.swift; sourceTree = "<group>"; };
 		9CD5CEC32894C301008A4189 /* BuscaCepAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscaCepAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9CD5CED12894C42E008A4189 /* BuscaCepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscaCepViewController.swift; sourceTree = "<group>"; };
+		9CD5CED32894C556008A4189 /* BuscaCepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscaCepView.swift; sourceTree = "<group>"; };
+		9CD5CED62894CCD3008A4189 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		9CD5CED82894D4D6008A4189 /* BuscaCepViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BuscaCepViewController+Extensions.swift"; sourceTree = "<group>"; };
+		9CD5CEDB2894D4FA008A4189 /* AppLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLabel.swift; sourceTree = "<group>"; };
+		9CD5CEDD2894D76E008A4189 /* AppImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImage.swift; sourceTree = "<group>"; };
+		9CD5CEDF2894D8E9008A4189 /* AppTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTextField.swift; sourceTree = "<group>"; };
+		9CD5CEE12894DA3B008A4189 /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
+		9CD5CEE32894DBAF008A4189 /* BuscaCepView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BuscaCepView+Extensions.swift"; sourceTree = "<group>"; };
+		9CD5CEE62894DC5D008A4189 /* ApiServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServiceProtocol.swift; sourceTree = "<group>"; };
+		9CD5CEE92894DD19008A4189 /* CepResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CepResult.swift; sourceTree = "<group>"; };
+		9CD5CEEB2894DFCB008A4189 /* ApiSerivce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiSerivce.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +119,13 @@
 		9CD5CE9F2894C300008A4189 /* BuscaCepApp */ = {
 			isa = PBXGroup;
 			children = (
+				9CD5CEE82894DD0F008A4189 /* Models */,
+				9CD5CEE52894DC40008A4189 /* Services */,
+				9CD5CEDA2894D4F0008A4189 /* Components */,
+				9CD5CED52894CCAF008A4189 /* Extensions */,
+				9CD5CED02894C415008A4189 /* BuscaCep */,
 				9CD5CEA02894C300008A4189 /* AppDelegate.swift */,
 				9CD5CEA22894C300008A4189 /* SceneDelegate.swift */,
-				9CD5CEA42894C300008A4189 /* ViewController.swift */,
-				9CD5CEA62894C300008A4189 /* Main.storyboard */,
 				9CD5CEA92894C301008A4189 /* Assets.xcassets */,
 				9CD5CEAB2894C301008A4189 /* LaunchScreen.storyboard */,
 				9CD5CEAE2894C301008A4189 /* Info.plist */,
@@ -125,6 +148,53 @@
 				9CD5CEC32894C301008A4189 /* BuscaCepAppUITestsLaunchTests.swift */,
 			);
 			path = BuscaCepAppUITests;
+			sourceTree = "<group>";
+		};
+		9CD5CED02894C415008A4189 /* BuscaCep */ = {
+			isa = PBXGroup;
+			children = (
+				9CD5CED12894C42E008A4189 /* BuscaCepViewController.swift */,
+				9CD5CED32894C556008A4189 /* BuscaCepView.swift */,
+				9CD5CED82894D4D6008A4189 /* BuscaCepViewController+Extensions.swift */,
+				9CD5CEE32894DBAF008A4189 /* BuscaCepView+Extensions.swift */,
+			);
+			path = BuscaCep;
+			sourceTree = "<group>";
+		};
+		9CD5CED52894CCAF008A4189 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9CD5CED62894CCD3008A4189 /* UITextField+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9CD5CEDA2894D4F0008A4189 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9CD5CEDB2894D4FA008A4189 /* AppLabel.swift */,
+				9CD5CEDD2894D76E008A4189 /* AppImage.swift */,
+				9CD5CEDF2894D8E9008A4189 /* AppTextField.swift */,
+				9CD5CEE12894DA3B008A4189 /* AppButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9CD5CEE52894DC40008A4189 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9CD5CEE62894DC5D008A4189 /* ApiServiceProtocol.swift */,
+				9CD5CEEB2894DFCB008A4189 /* ApiSerivce.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9CD5CEE82894DD0F008A4189 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9CD5CEE92894DD19008A4189 /* CepResult.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +303,6 @@
 			files = (
 				9CD5CEAD2894C301008A4189 /* LaunchScreen.storyboard in Resources */,
 				9CD5CEAA2894C301008A4189 /* Assets.xcassets in Resources */,
-				9CD5CEA82894C300008A4189 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +327,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CD5CEA52894C300008A4189 /* ViewController.swift in Sources */,
+				9CD5CED92894D4D6008A4189 /* BuscaCepViewController+Extensions.swift in Sources */,
 				9CD5CEA12894C300008A4189 /* AppDelegate.swift in Sources */,
+				9CD5CEEA2894DD19008A4189 /* CepResult.swift in Sources */,
+				9CD5CEE72894DC5D008A4189 /* ApiServiceProtocol.swift in Sources */,
+				9CD5CEE02894D8E9008A4189 /* AppTextField.swift in Sources */,
 				9CD5CEA32894C300008A4189 /* SceneDelegate.swift in Sources */,
+				9CD5CEDC2894D4FA008A4189 /* AppLabel.swift in Sources */,
+				9CD5CEE42894DBAF008A4189 /* BuscaCepView+Extensions.swift in Sources */,
+				9CD5CED42894C556008A4189 /* BuscaCepView.swift in Sources */,
+				9CD5CEDE2894D76E008A4189 /* AppImage.swift in Sources */,
+				9CD5CED72894CCD3008A4189 /* UITextField+Extensions.swift in Sources */,
+				9CD5CED22894C42E008A4189 /* BuscaCepViewController.swift in Sources */,
+				9CD5CEEC2894DFCB008A4189 /* ApiSerivce.swift in Sources */,
+				9CD5CEE22894DA3B008A4189 /* AppButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +377,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9CD5CEA62894C300008A4189 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9CD5CEA72894C300008A4189 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9CD5CEAB2894C301008A4189 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,7 +513,6 @@
 				INFOPLIST_FILE = BuscaCepApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,7 +539,6 @@
 				INFOPLIST_FILE = BuscaCepApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
